@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150891212386",
+    "project_id": "bookingapp-cac10",
+    "storage_bucket": "bookingapp-cac10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150891212386:android:d54ab41b0685620bad2b3b",
+        "android_client_info": {
+          "package_name": "com.example.bookingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ2eei5HHJr6S5QfXsLfo6kSPKzP7r0hA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
