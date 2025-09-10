@@ -1,5 +1,5 @@
 import 'package:bookingapp/pages/home.dart'; // Import your Home page
-import 'package:bookingapp/pages/login.dart'; // Import your Login page
+// Import your Login page
 import 'package:bookingapp/pages/onboarding.dart'; // Import your Onboarding page
 import 'package:firebase_auth/firebase_auth.dart'; // Import Firebase Auth
 import 'package:flutter/material.dart';

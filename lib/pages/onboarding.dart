@@ -81,7 +81,7 @@ class _OnboardingState extends State<Onboarding> {
                                       fontWeight: FontWeight.w500,
                                     ),
                                   ),
-                                  Container(
+                                  SizedBox(
                                     width:
                                         MediaQuery.of(context).size.width / 1.8,
                                     child: Text(
@@ -140,7 +140,7 @@ class _OnboardingState extends State<Onboarding> {
                                         fontWeight: FontWeight.w500,
                                       ),
                                     ),
-                                    Container(
+                                    SizedBox(
                                       width:
                                           MediaQuery.of(context).size.width /
                                           1.8,
@@ -198,7 +198,7 @@ class _OnboardingState extends State<Onboarding> {
                                       fontWeight: FontWeight.w500,
                                     ),
                                   ),
-                                  Container(
+                                  SizedBox(
                                     width:
                                         MediaQuery.of(context).size.width / 1.8,
                                     child: Text(
@@ -257,7 +257,7 @@ class _OnboardingState extends State<Onboarding> {
                                         fontWeight: FontWeight.w500,
                                       ),
                                     ),
-                                    Container(
+                                    SizedBox(
                                       width:
                                           MediaQuery.of(context).size.width /
                                           1.8,

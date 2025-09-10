@@ -10,7 +10,7 @@ import 'package:random_string/random_string.dart';
 
 class SignUp extends StatefulWidget {
   final String redirect;
-  SignUp({required this.redirect});
+  const SignUp({super.key, required this.redirect});
 
   @override
   State<SignUp> createState() => _SignUpState();
@@ -19,11 +19,11 @@ class SignUp extends StatefulWidget {
 class _SignUpState extends State<SignUp> {
   bool user = false, owner = false;
   String email = "", password = "", name = "";
-  TextEditingController namecontroller = new TextEditingController();
-  TextEditingController passwordcontroller = new TextEditingController();
-  TextEditingController mailcontroller = new TextEditingController();
+  TextEditingController namecontroller = TextEditingController();
+  TextEditingController passwordcontroller = TextEditingController();
+  TextEditingController mailcontroller = TextEditingController();
 
-  registration() async {
+  Future<void> registration() async {
     if (namecontroller.text != "" && mailcontroller.text != "") {
       try {
         await FirebaseAuth.instance.createUserWithEmailAndPassword(

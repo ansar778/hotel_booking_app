@@ -10,7 +10,7 @@ import 'package:flutter/material.dart';
 
 class LogIn extends StatefulWidget {
   final String redirect;
-  LogIn({required this.redirect});
+  const LogIn({super.key, required this.redirect});
 
   @override
   State<LogIn> createState() => _LogInState();
@@ -18,10 +18,10 @@ class LogIn extends StatefulWidget {
 
 class _LogInState extends State<LogIn> {
   String email = "", password = "", role = "", name = "", id = "", wallet = "";
-  TextEditingController passwordcontroller = new TextEditingController();
-  TextEditingController mailcontroller = new TextEditingController();
+  TextEditingController passwordcontroller = TextEditingController();
+  TextEditingController mailcontroller = TextEditingController();
 
-  userLogin() async {
+  Future<void> userLogin() async {
     try {
       await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: email,
